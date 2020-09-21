@@ -7,6 +7,7 @@ import (
 
 const list = `
 - contribute
+- joke
 - list
 - pick
 - ping

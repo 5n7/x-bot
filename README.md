@@ -10,6 +10,10 @@ A Slack BOT who does anything.
 
 Post the URL to contribute.
 
+### `@bot j|joke`
+
+Post a joke with the [Joke API](https://github.com/15Dkatz/official_joke_api).
+
 ### `@bot l|list`
 
 Post a list of commands.
