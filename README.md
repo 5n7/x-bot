@@ -20,7 +20,11 @@ Post a list of commands.
 
 ### `@bot o|ojichat`
 
-Post an ojichat with the [ojichat](https://github.com/greymd/ojichat).
+Post an ojichat with the [ojichat](https://github.com/greymd/ojichat).  
+Valid arguments are the following.
+
+- `@bot ojichat`
+- `@bot ojichat @skmatz`
 
 ### `@bot p|pick`
 
