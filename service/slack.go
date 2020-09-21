@@ -33,6 +33,10 @@ func (s *Slack) Callback(event slackevents.EventsAPIEvent) error {
 		}
 
 		switch messages[1] {
+		case "pick":
+			if err := s.Pick(api, e); err != nil {
+				return err
+			}
 		case "ping":
 			if err := s.Ping(api, e); err != nil {
 				return err
