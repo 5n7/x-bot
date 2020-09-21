@@ -10,6 +10,10 @@ A Slack BOT who does anything.
 
 Post the URL to contribute.
 
+### `@bot l|list`
+
+Post a list of commands.
+
 ### `@bot p|pick`
 
 Pick randomly.  
