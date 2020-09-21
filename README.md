@@ -6,6 +6,10 @@ A Slack BOT who does anything.
 
 `@bot` is your BOT's name.
 
+### `@bot contribute`
+
+Post the URL to contribute.
+
 ### `@bot pick`
 
 Pick randomly.  
