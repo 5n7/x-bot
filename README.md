@@ -6,6 +6,13 @@ A Slack BOT who does anything.
 
 `@bot` is your BOT's name.
 
+### `@bot pick`
+
+Pick randomly.  
+Valid arguments are the following.
+
+- `@bot pick 3 a b c d e`
+
 ### `@bot ping`
 
 Check to see if the BOT server is working properly.  
