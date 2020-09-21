@@ -7,7 +7,6 @@ import (
 	"strings"
 
 	"github.com/skmatz/x-bot/etc"
-
 	"github.com/slack-go/slack"
 	"github.com/slack-go/slack/slackevents"
 )
