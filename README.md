@@ -18,6 +18,10 @@ Post a joke with the [Joke API](https://github.com/15Dkatz/official_joke_api).
 
 Post a list of commands.
 
+### `@bot o|ojichat`
+
+Post an ojichat with the [ojichat](https://github.com/greymd/ojichat).
+
 ### `@bot p|pick`
 
 Pick randomly.  

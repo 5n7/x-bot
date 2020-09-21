@@ -9,6 +9,7 @@ const list = `
 - contribute
 - joke
 - list
+- ojichat
 - pick
 - ping
 - timer

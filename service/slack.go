@@ -44,6 +44,10 @@ func (s *Slack) Callback(event slackevents.EventsAPIEvent) error {
 			if err := s.List(api, e); err != nil {
 				return err
 			}
+		case "o", "ojichat":
+			if err := s.Ojichat(api, e); err != nil {
+				return err
+			}
 		case "p", "pick":
 			if err := s.Pick(api, e); err != nil {
 				return err
