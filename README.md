@@ -6,11 +6,11 @@ A Slack BOT who does anything.
 
 `@bot` is your BOT's name.
 
-### `@bot contribute`
+### `@bot c|contribute`
 
 Post the URL to contribute.
 
-### `@bot pick`
+### `@bot p|pick`
 
 Pick randomly.  
 Valid arguments are the following.
@@ -22,7 +22,7 @@ Valid arguments are the following.
 Check to see if the BOT server is working properly.  
 If it is working, the BOT posts the message `pong` to the same channel.
 
-### `@bot timer`
+### `@bot t|timer`
 
 Measure the time.  
 Valid arguments are the following.

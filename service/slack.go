@@ -33,11 +33,11 @@ func (s *Slack) Callback(event slackevents.EventsAPIEvent) error {
 		}
 
 		switch messages[1] {
-		case "contribute":
+		case "c", "contribute":
 			if err := s.Contribute(api, e); err != nil {
 				return err
 			}
-		case "pick":
+		case "p", "pick":
 			if err := s.Pick(api, e); err != nil {
 				return err
 			}
@@ -45,7 +45,7 @@ func (s *Slack) Callback(event slackevents.EventsAPIEvent) error {
 			if err := s.Ping(api, e); err != nil {
 				return err
 			}
-		case "timer":
+		case "t", "timer":
 			if err := s.Timer(api, e); err != nil {
 				return err
 			}
