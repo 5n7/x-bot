@@ -29,6 +29,7 @@ Valid arguments are the following.
 
 - `@bot ojichat`
 - `@bot ojichat @skmatz`
+- `@bot ojichat @skmatz 3`
 
 ### `@bot p|pick`
 
