@@ -10,6 +10,10 @@ A Slack BOT who does anything.
 
 Post the URL to contribute.
 
+### `@bot h|httpcat`
+
+Post a picture of a cat with [HTTP Cats](https://http.cat).
+
 ### `@bot j|joke`
 
 Post a joke with the [Joke API](https://github.com/15Dkatz/official_joke_api).
@@ -50,7 +54,7 @@ Valid arguments are the following.
 
 ## Develop
 
-Add a BOT with `app_mentions:read` and `chat:write` permissions to your Slack workspace and set .env.
+Add a BOT with `app_mentions:read`, `chat:write` and `files:write` permissions to your Slack workspace and set .env.
 
 ```
 docker-compose up --build

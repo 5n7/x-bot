@@ -36,6 +36,10 @@ func (s *Slack) Callback(event slackevents.EventsAPIEvent) error {
 			if err := s.Contribute(api, e); err != nil {
 				return err
 			}
+		case "h", "httpcat":
+			if err := s.HTTPCat(api, e); err != nil {
+				return err
+			}
 		case "j", "joke":
 			if err := s.Joke(api, e); err != nil {
 				return err

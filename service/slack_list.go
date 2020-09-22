@@ -7,6 +7,7 @@ import (
 
 const list = `
 - contribute
+- httpcat
 - joke
 - list
 - ojichat
